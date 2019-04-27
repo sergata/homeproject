@@ -2,8 +2,8 @@
 #include <ESP8266WiFi.h>
 
 // Replace with your network credentials
-const char* ssid = "georgieva"; // Input your wifi network name
-const char* password = "11223344"; // Input your wifi password
+const char* ssid = "your-ssid"; // Input your wifi network name
+const char* password = "your-password"; // Input your wifi password
 IPAddress ip(192, 168, 1, 125); //set static ip
 IPAddress gateway(192, 168, 1, 1); //set getteway
 IPAddress subnet(255, 255, 255, 0);//set subnet
